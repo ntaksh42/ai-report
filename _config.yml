@@ -1,0 +1,17 @@
+title: AI Tech Report
+description: AI技術動向の週次レポート
+theme: minima
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Collections
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
